@@ -21,5 +21,7 @@ Pod::Spec.new do |s|
 
   s.ios.frameworks  = 'CoreGraphics', 'Foundation', 'QuartzCore', 'UIKit', 'Accounts', 'Twitter'
   s.ios.weak_frameworks = 'Social'
+  s.tvos.frameworks  = 'CoreGraphics', 'Foundation', 'QuartzCore', 'UIKit', 'Accounts', 'Twitter'
+  s.tvos.weak_frameworks = 'Social'
   s.requires_arc = true
 end
